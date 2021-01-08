@@ -14,6 +14,7 @@ Then we using the built-in Python functions to estimate the key facial features 
 
  ## Face recognition
  
-Now that the facial features are extracted, the 128 dimensional vector of features is like a point in R^128 that uniquely represents an image. Therefore, we compute the pairwise distance (e.g., Euclidean distance) between the feature vectors of different images to determine whether the two images are similar or not. As this distance is lower, the more similar the images are. Then, we set a face maximum distance (e.g., D = 0.6) as a threshold on the distances. If the distance between an image *a* and *b* is less than or equal to 0.6, then the two images match. Otherwise, they do not match. 
+Now that the facial features are extracted, the 128 dimensional vector of features is like a point in R^128 that uniquely represents an image. Therefore, we compute the pairwise distance (e.g., Euclidean distance) between the feature vectors of different images to determine whether the two images are similar or not. As this distance is lower, the more similar the images are. Then, we set a face maximum distance (e.g., D = 0.6) as a threshold on the distances. If the distance between an image *a* and *b* is less than or equal to 0.6, then the two images match. Otherwise, they do not match. Using pairwise destances CNN could recognize faces with 100% accuracy. Images shown in the green box are used as test images and images in the blue box are used as train images. Some of the test images contain more than one face in them with different facial gestures seen in the train set. For instance, the first test image froom left contains four faces  
 
-![FaceEncodepic](https://user-images.githubusercontent.com/43753085/103986274-11a21300-5150-11eb-815b-92a0aaf83a70.png)
+![FaceEncodepic](https://user-images.githubusercontent.com/43753085/104043950-32935400-51a2-11eb-8509-6ecbada77db5.png)
+
