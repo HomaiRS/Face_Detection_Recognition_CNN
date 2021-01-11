@@ -4,3 +4,7 @@ In this project, the dataset from “MIT face recognition project” (http://cou
 # Face classification: an evaluation of supervised learning methods
 
 The goal of this repository is to use the Convolutional Neural Network (CNN) for face detection, facial features extraction and recognition. 
+
+```diff
+- See the results in "RESULT.md" file.
+```
